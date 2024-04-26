@@ -26,7 +26,7 @@ export default function Index() {
       <ul>
         {programs.map((program) => (
           <li key={program.id}>
-            <a href={`/programs/${program.id}`}>{program.programName}</a>
+            <a href={`/programs/${program.SID}`}>{program.programName}</a>
           </li>
         ))}
       </ul>

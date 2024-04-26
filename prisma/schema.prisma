@@ -18,7 +18,7 @@ model Program {
   programName String
   description String?
   prompt      String
-  safeName    String
+  SID         String   @unique
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
 }
